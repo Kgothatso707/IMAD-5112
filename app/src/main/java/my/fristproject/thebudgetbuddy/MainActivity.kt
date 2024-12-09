@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
             insets
         }
 
-
+        //Get started button which leades the to the Maincsreen of the app
         val btnGetStarted = findViewById<Button>(R.id.btnGetStarted)
         val btnStop = findViewById<Button>(R.id.btnStop)
         btnGetStarted.setOnClickListener{
